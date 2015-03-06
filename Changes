@@ -1,0 +1,62 @@
+Revision history for WWW-PAUSE-Simple
+
+0.08    2015-03-05 (PERLANCAR)
+
+        - Allow 'pause ls -l' (alias for 'pause ls --detail') for convenience
+          and for the Unix die-hards.
+
+
+0.07    2015-02-26 (PERLANCAR)
+
+        - No functional changes.
+
+        - [dist] Rebuild with newer DZP:Rinci::Wrap (0.08) which generates code
+          to update Rinci metadata in source code.
+
+
+0.06    2015-02-25 (PERLANCAR)
+
+        - No functional changes.
+
+        - [dist] Rebuild with newer DZP:Rinci::Wrap which peppers '## this line
+          put by DZP:Rinci::Wrap' markers.
+
+
+0.05    2015-02-21 (PERLANCAR)
+
+        - No functional changes.
+
+        - Update Synopsis and Changes.
+
+
+0.04    2015-02-21 (PERLANCAR)
+
+        - upload: Accept multiple files.
+
+        - list/delete/undelete/reindex: Accept filename/wildcard patterns as
+          arguments. Note that you might want to quote them first to avoid the
+          patterns being interpreted by your shell.
+
+        [REMOVED FEATURES]
+
+        - delete/undelete/reindex: remove option --all (you can now specify '*'
+          instead).
+
+
+0.03    2015-02-19 (PERLANCAR)
+
+	- [dzil] Test using DZP::Rinci::Wrap.
+
+	- Add aliases: ls for list, rm for delete.
+
+
+0.02    2015-02-06 (PERLANCAR)
+
+        - Implement 'delete', 'undelete', and 'reindex' subcommands.
+
+        - list: Add options --(no-)del and --query.
+
+
+0.01    2015-02-05 (PERLANCAR)
+
+        - First early release, only 'list' and 'upload' have been implemented.
