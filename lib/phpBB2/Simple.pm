@@ -6,7 +6,7 @@ package phpBB2::Simple;
 use 5.010001;
 use strict;
 use warnings;
-use Log::Any '$log';
+use Log::Any::IfLOG '$log';
 
 use DBI;
 use Perinci::Object;
