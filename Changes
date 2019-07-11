@@ -1,11 +1,11 @@
-0.04    2017-07-10 (PERLANCAR)
+0.04    2017-07-10  Released-By: PERLANCAR
 
 	- No functional changes.
 
 	- Replace Log::Any with Log::ger.
 
 
-0.03    2015-09-04 (PERLANCAR)
+0.03    2015-09-04  Released-By: PERLANCAR
 
 	- No functional changes.
 
@@ -14,13 +14,13 @@
 	  requirement.
 
 
-0.02    2015-08-18 (PERLANCAR)
+0.02    2015-08-18  Released-By: PERLANCAR
 
 	- No functional changes.
 
 	- Switch from Log::Any to Log::Any::IfLOG.
 
 
-0.01    2015-03-06 (PERLANCAR)
+0.01    2015-03-06  Released-By: PERLANCAR
 
         - First release.
